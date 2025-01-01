@@ -107,49 +107,10 @@ namespace AboutGame
                 static void BrenInfo()
                 {
 
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.White;
 
-                    string[] title = new string[]
-                    {
-                "Name: BREN JAREN F. MARTINEZ",
-                "Contact:"
-                    };
-
-                    CenterDisplay(title);
-                    Console.ReadKey();
-                }
-                static void GenleiInfo()
-                {
-
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.White;
-
-                    string[] title = new string[]
-                    {
-                    "Name: GENLEI C. MINIMIRITO",
-                    "Contact: 0324-0599@lspu.edu.ph"
-                    };
-
-                    CenterDisplay(title);
-                    Console.ReadKey();
-                }
-                static void AbbyInfo()
-                {
-
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.White;
-
-                    string[] title = new string[]
-                    {
-                    "Name: ABBY CRYSTAL R. NEBREJA",
-                    "Contact:"
-                    };
-
-                    CenterDisplay(title);
                     Console.ReadKey();
                 }
             }
         }
     }
-}
+

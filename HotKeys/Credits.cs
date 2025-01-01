@@ -115,16 +115,6 @@ namespace Credit
                 static void BrenInfo()
                 {
 
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.White;
-
-                    string[] title = new string[]
-                    {
-                "Name: BREN JAREN F. MARTINEZ",
-                "Contact:"
-                    };
-
-                    CenterDisplay(title);
                     Console.ReadKey();
                 }
                 static void GenleiInfo()
@@ -154,14 +144,6 @@ namespace Credit
                     "Contact:"
                     };
 
-                    CenterDisplay(title);
-                    Console.ReadKey();
                 }
             }
         
-
-
-
-     }
-    }
-}
