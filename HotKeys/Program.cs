@@ -606,7 +606,7 @@ namespace MainGame
         "                                                                                                                         ",
         $"Final Score: {score}   Final WPM: {finalWPM}",
         "Thank you for playing!",
-        "Press any key to return to the main menu."
+        "Press any key to return to the menu."
 
             };
             Console.ForegroundColor = ConsoleColor.White;
@@ -632,7 +632,7 @@ namespace MainGame
 
             // Wait for user to press a key
             Console.ReadKey();
-            SelectGameMenu();
+            PlaySpaceTyper();
         }
 
     }
