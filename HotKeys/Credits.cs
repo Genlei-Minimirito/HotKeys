@@ -112,38 +112,14 @@ namespace Credit
                         }
                         break;
                 }
-                static void BrenInfo()
-                {
-
+                
                     Console.ReadKey();
-                }
-                static void GenleiInfo()
-                {
-
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.White;
-
-                    string[] title = new string[]
-                    {
-                    "Name: GENLEI C. MINIMIRITO",
-                    "Contact: 0324-0599@lspu.edu.ph"
-                    };
-
-                    CenterDisplay(title);
-                    Console.ReadKey();
-                }
-                static void AbbyInfo()
-                {
-
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.White;
-
-                    string[] title = new string[]
-                    {
-                    "Name: ABBY CRYSTAL R. NEBREJA",
-                    "Contact:"
-                    };
-
                 }
             }
         
+
+
+
+     }
+    }
+

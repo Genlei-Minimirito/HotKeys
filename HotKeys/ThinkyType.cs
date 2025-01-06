@@ -42,7 +42,7 @@ namespace ThinkyT
             };
 
             // Menu options
-            string[] menuOptions = { "Start Game", "Instructions", "Back to Select Game" };
+            string[] menuOptions = { "Start Game", "Instructions", "Back to Select Game Menu" };
             int selectedOption = 0;
 
             while (true)

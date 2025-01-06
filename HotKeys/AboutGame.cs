@@ -93,7 +93,7 @@ namespace AboutGame
                         selectedIndex = (selectedIndex + 1) % options.Length; // Wrap around to the first option
                         break;
                     case ConsoleKey.Enter:
-                        if (selectedIndex == 0) // Display Bren's Info
+                        if (selectedIndex == 0) 
                         {
                             ShowMainMenu();
                         }
@@ -104,10 +104,8 @@ namespace AboutGame
                         }
                         break;
                 }
-                static void BrenInfo()
-                {
-
-
+             
+                   
                     Console.ReadKey();
                 }
             }

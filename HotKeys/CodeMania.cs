@@ -112,7 +112,7 @@ namespace CodeMANIA
                 string[] menuOptions = {
                 "Start Game",
                 "Instructions",
-                "Back to Main Menu"
+                "Back to Select Game Menu"
             };
 
                 // Calculate vertical centering

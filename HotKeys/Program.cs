@@ -38,8 +38,8 @@ namespace MainGame
 
         static void Main()
         {
-            ShowBanner();
             ShowLogo();
+            ShowBanner();
             ShowLoadingScreen();
             ShowMainMenu();
         }
@@ -80,9 +80,10 @@ namespace MainGame
         }
         static void ShowLogo()
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Clear();
             string[] asciiArt = new string[]
-           { "                                      @@@                 @@@@                                       ",
+           { "                                      @@@               @@@@                                       ",
             "                                     @@@@@               @@@@@                                       ",
             "                                    @@@@@@@@             @@@@@@                                      ",
             "                                    @@@@@@@@@            @@@@@@                                      ",
@@ -296,7 +297,7 @@ namespace MainGame
 
         public static void PlaySpaceTyper()
         {
-            SpaceTyperArt();
+           
             ShowTitleScreen();
             SelectLevel();
 
@@ -310,10 +311,7 @@ namespace MainGame
 
 
 
-        static void SpaceTyperArt()
-        {
-
-        }
+       
 
 
 
@@ -357,7 +355,7 @@ namespace MainGame
         "Intermediate (8 lives)",
         "Advanced (5 lives)",
         "Expert (3 lives)",
-        "Back to Select Menu"
+        "Back to Select Game Menu"
             };
 
             while (true)
@@ -590,7 +588,7 @@ namespace MainGame
         static void ShowGameOverScreen()
         {
             SoundPlayer gameOverSound = new SoundPlayer(@"C:\Users\Lei\source\repos\HotKeys\HotKeys\BGM&SFX\Old Video Game Game Over Sound Effect FREE.wav");
-            gameOverSound.Play();
+            gameOverSound.Play();   
             Console.Clear();
             int finalWPM = CalculateWPM(); // Calculate final WPM
 
